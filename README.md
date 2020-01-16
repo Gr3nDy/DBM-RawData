@@ -1,4 +1,4 @@
-# [DBM]GrenDy's RawData
+# [DBM] GrenDy's RawData
 Raw Data by [GrenDy](https://github.com/Gr3nDy)
 
 <details><summary><b>Commands</b></summary>
