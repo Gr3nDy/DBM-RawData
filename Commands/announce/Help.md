@@ -9,7 +9,7 @@ This Command allows you to make an announcement
 * `[p]announce <announcement>`
 
 # Installation
-Copy [Announce (Raw Data)](https://raw.githubusercontent.com/Gr3nDy/DBM-RawData/master/Commands/announce/announce.json?token=AIED6DIDLAMDZPLPR6LRU6K6ED2RM)) and import to
+Copy [Announce (Raw Data)](https://raw.githubusercontent.com/Gr3nDy/DBM-RawData/master/Commands/announce/announce.json?token=AIED6DIDLAMDZPLPR6LRU6K6ED2RM) and import to
 DBM.
 * 1.Create New Command
 * 2.Right click the command
