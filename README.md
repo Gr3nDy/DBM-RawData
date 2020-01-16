@@ -7,7 +7,7 @@ Raw Data by GrenDy
 * [Announce](https://github.com/Gr3nDy/DBM-RawData/blob/master/Commands/announce/Help.md)
 </details>
 
-<details><summary>Events</summary>
+<details><summary><b>Events</b></summary>
 
 * `none`
 </details>
