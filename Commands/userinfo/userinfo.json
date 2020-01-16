@@ -2,13 +2,8 @@
   "name": "userinfo",
   "permissions": "SEND_MESSAGES",
   "restriction": "1",
-  "_id": "XAzAc",
+  "_id": "EUoLo",
   "actions": [
-    {
-      "source": "IaqoB",
-      "type": "true",
-      "name": "Call Command/Event"
-    },
     {
       "comment": "MENTIONED USER",
       "color": "#00ffff",
@@ -467,7 +462,7 @@
       "comparison": "0",
       "value": "1",
       "iftrue": "2",
-      "iftrueVal": "85",
+      "iftrueVal": "84",
       "iffalse": "3",
       "iffalseVal": "12",
       "name": "Check Parameters"
@@ -660,7 +655,7 @@
       "name": "Comment"
     },
     {
-      "info": "0",
+      "info": "1",
       "infoIndex": "1",
       "storage": "1",
       "varName": "text",
