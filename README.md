@@ -1,5 +1,5 @@
 # [DBM]RawData
-Raw Data by GrenDy
+Raw Data by [GrenDy](https://github.com/Gr3nDy)
 
 <details><summary><b>Commands</b></summary>
 
