@@ -163,7 +163,7 @@
       "iftrue": "0",
       "iftrueVal": "",
       "iffalse": "3",
-      "iffalseVal": "12",
+      "iffalseVal": "13",
       "name": "Check Parameters"
     },
     {
@@ -270,7 +270,7 @@
       "iftrue": "0",
       "iftrueVal": "",
       "iffalse": "3",
-      "iffalseVal": "12",
+      "iffalseVal": "11",
       "name": "Check Parameters"
     },
     {
@@ -354,13 +354,6 @@
       "infoIndex": "1",
       "storage": "1",
       "varName": "findUser",
-      "name": "Store Command Params"
-    },
-    {
-      "info": "0",
-      "infoIndex": "2",
-      "storage": "1",
-      "varName": "purgeValue",
       "name": "Store Command Params"
     },
     {
@@ -466,6 +459,13 @@
       "name": "End Action Sequence"
     },
     {
+      "info": "0",
+      "infoIndex": "2",
+      "storage": "1",
+      "varName": "purgeValue",
+      "name": "Store Command Params"
+    },
+    {
       "storage": "1",
       "varName": "purgeValue",
       "comparison": "4",
@@ -519,17 +519,9 @@
       "name": "Delete Message"
     },
     {
-      "message": "0",
-      "varName": "",
-      "info": "1",
-      "storage": "1",
-      "varName2": "message-id",
-      "name": "Store Message Info"
-    },
-    {
       "behavior": "0",
       "interpretation": "1",
-      "code": "var user = tempVars(\"purgeUser\");\nvar value = tempVars(\"purgeValue\");\nmsg.channel.fetchMessages({limit: 100})\n    .then ((messages) => {\n        var filterUser = user.id;\n        var filtered = messages.filter(m => m.author.id === filterUser).array().slice(0, value);      \n        msg.channel.bulkDelete(filtered).then(messages => console.log(`deleted ${messages.size} messages`)).catch(console.error);        \n    }).catch(console.error); ",
+      "code": "var usr = tempVars(\"purgeUser\");\nvar amt = tempVars(\"purgeValue\");\nmsg.channel.fetchMessages({limit: 100})\n    .then ((messages) => {\n        var filterUser = usr.id;\n        var filtered = messages.filter(m => m.author.id === filterUser).array().slice(0, amt);      \n        msg.channel.bulkDelete(filtered).then(messages => console.log(`deleted ${messages.size} messages`)).catch(console.error);        \n    }).catch(console.error); ",
       "storage": "0",
       "varName": "",
       "name": "Run Script"
