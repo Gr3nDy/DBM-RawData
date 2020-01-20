@@ -10,7 +10,7 @@ Purge a messages
 * `[p]purge <user> <value>`
 * `[p]purge links <range>`
 * `[p]purge invites <range>`
-* `[p]purge images <value>`
+* `[p]purge images <range>`
 
 # Installation
 Copy [Purge (Raw Data)](https://raw.githubusercontent.com/Gr3nDy/DBM-RawData/master/Commands/purge/purge.json) and import to
