@@ -24,5 +24,5 @@ DBM.
 # Note
 This Command is modified version of [Purge Message From User](https://discordapp.com/channels/374961173524643843/574311656453177355/574319383573168151)
 <br>
-The command can only delete messages that were sent within the last 14 days
+The Command can only delete messages that were sent within the last 14 days
 
