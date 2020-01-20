@@ -21,5 +21,7 @@ DBM.
 * 4.Paste [Purge (Raw Data)](https://raw.githubusercontent.com/Gr3nDy/DBM-RawData/master/Commands/purge/purge.json)
 * 5.Click on save
 
+# Other
+This Command is modified version of [Purge Message From User](https://discordapp.com/channels/374961173524643843/574311656453177355/574319383573168151)
 
 
