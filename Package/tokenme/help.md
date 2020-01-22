@@ -37,8 +37,8 @@ DBM.
 
 <b>Token</b>
 * Put your <b>Log Channel ID</b> to <strong>Action #6 (Find Channel)</strong> 
-* Edit <strong>Action #8 (Run Script)</strong>  and add any member data you'd like to be able to create token for an example `/(data1|data2|data3|data4)/g` (REMINDER!!! CASE SENSITIVE)
-* Edit <strong>Action #241(Set Embed Description)</strong> and put your Bot Channel Id
+* Edit <strong>Action #8 (Run Script)</strong>  and add any member data you'd like to be able to create token for an example `/(data1|data2|data3|data4)/g` (REMINDER! CASE SENSITIVE)
+* Edit <strong>Action #241 (Set Embed Description)</strong> and put your <b>Bot Channel ID</b>
 
 <b>Events:</b>
 
