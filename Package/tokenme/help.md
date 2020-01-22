@@ -1,4 +1,4 @@
-# TokenMe
+# ![app icon](./Package/tokenme/Screenshot/icon.png)TokenMe
 
 Convert <b>Member Data</b> into a reedemable <b>Token</b>
 
