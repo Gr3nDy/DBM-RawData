@@ -48,3 +48,8 @@ DBM.
 
 <b>Loop 2</b>
 * Put your <b>Log Channel ID</b> to <strong>Action #6 (Find Channel)</strong>
+
+# Note
+This Command is intended to be used only for one server
+<br>
+Keep in mind that member data are case sensitive
