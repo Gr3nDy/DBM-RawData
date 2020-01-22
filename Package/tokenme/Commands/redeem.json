@@ -190,7 +190,7 @@
     {
       "behavior": "0",
       "jsonObjectVarName": "token-json",
-      "path": "$.expire",
+      "path": "$.expires",
       "storage": "1",
       "varName": "expirejson",
       "name": "Parse From Stored Json"
