@@ -1,4 +1,4 @@
-# ![app icon](./blob/master/Package/tokenme/Screenshot/icon.png) TokenMe
+# ![app icon](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/Screenshot/icon.png) TokenMe
 
 Convert <b>Member Data</b> into a reedemable <b>Token</b>
 
