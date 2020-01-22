@@ -31,9 +31,19 @@ DBM.
 * 4.Paste Raw Data
 * 5.Click on save
 
-<b>Customization</b>
+# Customization
 
-<b>Commands</b>
+<h2>Command</h2>
 
-TokenMe
+<b>Token</b>
+* Put your <b>Log Channel ID</b> to <strong>Action #6 (Find Channel)</strong> 
+* Edit <strong>Action #8 (Run Script)</strong>  and add any member data you'd like to be able to create token for an example `/(data1|data2|data3|data4)/g` (REMINDER!!! CASE SENSITIVE)
+* Edit <strong>Action #241(Set Embed Description)</strong> and put your Bot Channel Id
 
+<h2>Event</h2>
+
+<b>Loop 1</b>
+* On <strong>Action #2 (Loop Through List)</strong> Set it to call Event <b>Loop 2</b> (By default it's already set to Loop 2)
+
+<b>Loop 2</b>
+* Put your <b>Log Channel ID</b> to <strong>Action #6(Find Channel)</strong>
