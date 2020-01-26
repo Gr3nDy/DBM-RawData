@@ -34,7 +34,7 @@ DBM.
 
 # Customization
 
-<b>Commands:</b>
+<u><b>Commands:</b></u>
 
 <b>Token</b>
 * Put your <b>Log Channel ID</b> to <strong>Action #5 (Find Channel)</strong> 
@@ -43,7 +43,7 @@ DBM.
 * Edit <strong>Action #246 (Set Embed Description)</strong> and put your <b>Bot Channel ID</b>
 <br>
 
-<b>Events:</b>
+<u><b>Events:</b></u>
 
 <b>Loop 1</b>
 * On <strong>Action #2 (Loop Through List)</strong> Set it to call Event <b>Loop 2</b> <em>(By default it's already set to Loop 2)</em>
