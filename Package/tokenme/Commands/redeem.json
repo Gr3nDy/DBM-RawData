@@ -2,7 +2,7 @@
   "name": "redeem",
   "permissions": "NONE",
   "restriction": "1",
-  "_id": "UkjNx",
+  "_id": "MCtJi",
   "actions": [
     {
       "member": "1",
@@ -60,7 +60,7 @@
     {
       "storage": "1",
       "varName": "msg0",
-      "message": "Redeem Token by using\n`redeem <token>`",
+      "message": "Redeem Token by using\n`>redeem <token>`",
       "name": "Set Embed Description"
     },
     {
@@ -103,7 +103,7 @@
       "iftrue": "3",
       "iftrueVal": "2",
       "iffalse": "3",
-      "iffalseVal": "6",
+      "iffalseVal": "7",
       "name": "Check Variable"
     },
     {
@@ -329,5 +329,6 @@
       "name": "Delete Message"
     }
   ],
+  "_timeRestriction": 3,
   "comType": "0"
 }
