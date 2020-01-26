@@ -39,13 +39,13 @@ DBM.
 
 <b>Token</b>
 * Put your <b>Log Channel ID</b> to <strong>Action #5 (Find Channel)</strong> 
-* Edit <strong>Action #7 (Run Script)</strong>  and add any member data you'd like to be able to create token for an example `/(datatype1|datatype2|datatype3|datatype4)/` to `/(coin|balance|XP|item|GEMS)/` (REMINDER!!! CASE SENSITIVE)
+* Edit <strong>Action #7 (Run Script)</strong>  and add any member data you'd like to be able to create token for an example `/(datatype1|datatype2|datatype3|datatype4)/` to `/(coin|balance|XP|item|GEMS)/` <em>(REMINDER!!! CASE SENSITIVE)</em>
 * Edit <strong>Action #246 (Set Embed Description)</strong> and put your <b>Bot Channel ID</b>
 
 <b>Events:</b>
 
 <b>Loop 1</b>
-* On <strong>Action #2 (Loop Through List)</strong> Set it to call Event <b>Loop 2</b> (By default it's already set to Loop 2)
+* On <strong>Action #2 (Loop Through List)</strong> Set it to call Event <b>Loop 2</b> <em>(By default it's already set to Loop 2)</em>
 
 <b>Loop 2</b>
 * Put your <b>Log Channel ID</b> to <strong>Action #6 (Find Channel)</strong>
