@@ -1,5 +1,5 @@
 # ![app icon](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/Screenshot/icon.png) TokenMe
-[![release](https://img.shields.io/static/v1?label=release&message=1.0.0&color=red)](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/help.md/)
+[![release](https://img.shields.io/static/v1?label=release&message=1.0.2&color=red)](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/help.md/)
 
 Convert <b>Member Data</b> into a reedemable <b>Token</b>
 ![gif](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/Screenshot/GIF.gif)
@@ -49,6 +49,23 @@ DBM.
 
 <b>Loop 2</b>
 * Put your <b>Log Channel ID</b> to <strong>Action #6 (Find Channel)</strong>
+
+# Changelogs
+
+<details><summary>1.0.0</summary>
+
+* Added logs for `gift`
+* Added logs for expired token
+* Added `check`
+* Bugs fixed
+</details>
+
+<details><summary>1.0.2</summary>
+
+* Added logs for `create`
+* Simplified embed design
+* Bugs fixed
+</details>
 
 # Note
 This Command is intended to be used only for one server
