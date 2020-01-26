@@ -34,7 +34,7 @@ DBM.
 
 # Customization
 
-<u><b>Commands:</b></u>
+<b><u>Commands:</u></b>
 
 <b>Token</b>
 * Put your <b>Log Channel ID</b> to <strong>Action #5 (Find Channel)</strong> 
