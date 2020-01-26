@@ -39,7 +39,7 @@ DBM.
 
 <b>Token</b>
 * Put your <b>Log Channel ID</b> to <strong>Action #5 (Find Channel)</strong> 
-* Edit <strong>Action #7 (Run Script)</strong>  and add any member data you'd like to be able to create token for an example `/(datatype1|datatype2|datatype3|datatype4)/` to `/(coin|balance|XP|item|GEMS)/ (REMINDER! CASE SENSITIVE)
+* Edit <strong>Action #7 (Run Script)</strong>  and add any member data you'd like to be able to create token for an example `/(datatype1|datatype2|datatype3|datatype4)/` to `/(coin|balance|XP|item|GEMS)/ (REMINDER!!! CASE SENSITIVE)
 * Edit <strong>Action #246 (Set Embed Description)</strong> and put your <b>Bot Channel ID</b>
 
 <b>Events:</b>
@@ -53,4 +53,5 @@ DBM.
 # Note
 This Command is intended to be used only for one server
 <br>
-Keep in mind that member data are case sensitive
+<br>
+Keep in mind that member data are case sensitive, so put the correct `datatype` or else it'll create a new member data
