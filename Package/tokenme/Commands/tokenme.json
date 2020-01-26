@@ -1,5 +1,5 @@
 {
-  "name": "token",
+  "name": "tokenadmin",
   "permissions": "NONE",
   "restriction": "1",
   "_id": "jQnmV",
@@ -725,7 +725,7 @@
     {
       "storage": "1",
       "varName": "token",
-      "message": "**Token Successfully Created**\n\n",
+      "message": "**Token Successfully Created**",
       "name": "Set Embed Description"
     },
     {
@@ -756,7 +756,7 @@
       "name": "Send Embed Message MOD"
     },
     {
-      "title": "",
+      "title": "Token Created",
       "author": "${msg.author.username}",
       "color": "#3269a8",
       "url": "",
@@ -776,12 +776,6 @@
       "storage": "1",
       "varName": "token-created-log",
       "name": "Create Embed Message"
-    },
-    {
-      "storage": "1",
-      "varName": "token-created-log",
-      "message": "**Token Created**",
-      "name": "Set Embed Description"
     },
     {
       "storage": "1",
@@ -1923,7 +1917,7 @@
       "name": "Run Script"
     },
     {
-      "title": "",
+      "title": "Token Sent",
       "author": "${msg.author.username}",
       "color": "#0000FF",
       "url": "",
