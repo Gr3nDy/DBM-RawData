@@ -43,7 +43,7 @@ DBM.
 * Edit <strong>Action #246 (Set Embed Description)</strong> and put your <b>Bot Channel ID</b>
 <br>
 
-<b><ins>Events:</ins></u>
+<b><ins>Events:</ins></b>
 
 <b>Loop 1</b>
 * On <strong>Action #2 (Loop Through List)</strong> Set it to call Event <b>Loop 2</b> <em>(By default it's already set to Loop 2)</em>
