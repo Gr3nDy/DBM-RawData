@@ -24,7 +24,6 @@ Convert <b>Member Data</b> into a reedemable <b>Token</b>
 
 * [Loop 1](https://raw.githubusercontent.com/Gr3nDy/DBM-RawData/master/Package/tokenme/Events/Loop%201.json)
 * [Loop 2](https://raw.githubusercontent.com/Gr3nDy/DBM-RawData/master/Package/tokenme/Events/Loop%202.json)
-<br>
 
 Copy <b>Commands</b> & <b>Events</b> and import to
 DBM.
@@ -43,6 +42,7 @@ DBM.
 * Edit <strong>Action #7 (Run Script)</strong>  and add any member data you'd like to be able to create token <br>
   <i>for an Example:</i> `/(datatype1|datatype2|datatype3|datatype4)/` to `/(coin|balance|XP|item|GEMS)/` <br> <em>(REMINDER!!! CASE SENSITIVE)</em>
 * Edit <strong>Action #246 (Set Embed Description)</strong> and put your <b>Bot Channel ID</b>
+<br>
 
 <b>Events:</b>
 
