@@ -78,3 +78,6 @@ This Command is intended to be used only for one server
 <br>
 <br>
 Keep in mind that member data are case sensitive, so put the correct member data for `datatype` or else it'll create a new member data
+<br>
+<br>
+And make sure you've installed <em>betamods</em> on your DBM
