@@ -72,4 +72,4 @@ DBM.
 This Command is intended to be used only for one server
 <br>
 <br>
-Keep in mind that member data are case sensitive, so put the correct `datatype` or else it'll create a new member data
+Keep in mind that member data are case sensitive, so put the correct member data for `datatype` or else it'll create a new member data
