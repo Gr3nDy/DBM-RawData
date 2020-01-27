@@ -2,7 +2,7 @@
   "name": "redeem",
   "permissions": "NONE",
   "restriction": "1",
-  "_id": "MCtJi",
+  "_id": "RNawS",
   "actions": [
     {
       "member": "1",
@@ -26,13 +26,43 @@
       "name": "End Action Sequence"
     },
     {
+      "comment": "↓ LOG CHANNEL ↓",
+      "color": "#80ff00",
+      "name": "Comment"
+    },
+    {
+      "info": "0",
+      "find": "LOG CHANNEL ID",
+      "storage": "1",
+      "varName": "log-channel",
+      "name": "Find Channel"
+    },
+    {
+      "comment": "↓ LOG SET (true/false) ↓",
+      "color": "#80ff00",
+      "name": "Comment"
+    },
+    {
+      "behavior": "0",
+      "interpretation": "0",
+      "code": "true",
+      "storage": "1",
+      "varName": "logs-set",
+      "name": "Run Script"
+    },
+    {
+      "comment": "Command:",
+      "color": "#00ffff",
+      "name": "Comment"
+    },
+    {
       "condition": "0",
       "comparison": "0",
       "value": "0",
       "iftrue": "0",
-      "iftrueVal": "",
+      "iftrueVal": "4",
       "iffalse": "3",
-      "iffalseVal": "4",
+      "iffalseVal": "7",
       "name": "Check Parameters"
     },
     {
@@ -60,7 +90,7 @@
     {
       "storage": "1",
       "varName": "msg0",
-      "message": "Redeem Token by using\n`>redeem <token>`",
+      "message": "Redeem Token by using\n`redeem <token>`",
       "name": "Set Embed Description"
     },
     {
@@ -76,17 +106,22 @@
       "name": "Send Embed Message"
     },
     {
-      "name": "End Action Sequence"
+      "time": "15",
+      "measurement": "1",
+      "name": "Wait"
     },
     {
-      "condition": "0",
-      "comparison": "0",
-      "value": "1",
-      "iftrue": "0",
-      "iftrueVal": "",
-      "iffalse": "2",
-      "iffalseVal": "3",
-      "name": "Check Parameters"
+      "storage": "0",
+      "varName": "",
+      "name": "Delete Message"
+    },
+    {
+      "storage": "1",
+      "varName": "msg0",
+      "name": "Delete Message"
+    },
+    {
+      "name": "End Action Sequence"
     },
     {
       "info": "0",
@@ -103,7 +138,7 @@
       "iftrue": "3",
       "iftrueVal": "2",
       "iffalse": "3",
-      "iffalseVal": "7",
+      "iffalseVal": "10",
       "name": "Check Variable"
     },
     {
@@ -139,7 +174,7 @@
     {
       "storage": "1",
       "varName": "msg0",
-      "message": "**Token** Is a randomized characters\n`>redeem <token>`\n\n_Example:_ `>redeem Yde21Xit`",
+      "message": "**Token** Is a randomized characters\n`redeem <token>`\n\n_Example:_ `redeem Yde21Xit`",
       "name": "Set Embed Description"
     },
     {
@@ -153,6 +188,21 @@
       "iffalseVal": "",
       "messageContent": "",
       "name": "Send Embed Message"
+    },
+    {
+      "time": "15",
+      "measurement": "1",
+      "name": "Wait"
+    },
+    {
+      "storage": "0",
+      "varName": "",
+      "name": "Delete Message"
+    },
+    {
+      "storage": "1",
+      "varName": "msg0",
+      "name": "Delete Message"
     },
     {
       "name": "End Action Sequence"
@@ -242,6 +292,14 @@
       "name": "Parse From Stored Json"
     },
     {
+      "behavior": "0",
+      "jsonObjectVarName": "token-json",
+      "path": "$.tokencreator",
+      "storage": "1",
+      "varName": "tokencreator",
+      "name": "Parse From Stored Json"
+    },
+    {
       "member": "1",
       "varName": "",
       "dataName": "${tempVars(\"datatypejson\")}",
@@ -319,6 +377,78 @@
       "name": "File Control"
     },
     {
+      "storage": "1",
+      "varName": "logs-set",
+      "comparison": "1",
+      "value": "true",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "1",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "comment": "logs msg if (true)",
+      "color": "#ff0080",
+      "name": "Comment"
+    },
+    {
+      "title": "Token Redeemed",
+      "author": "${msg.author.username}",
+      "color": "#2b70e0",
+      "url": "",
+      "authorIcon": "${msg.author.displayAvatarURL}",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "logs-embed",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "logs-embed",
+      "message": "Token Claimed by <@${msg.author.id}>\n",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "logs-embed",
+      "fieldName": "Token",
+      "message": "${tempVars(\"param\")}",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "logs-embed",
+      "fieldName": "Token Creator",
+      "message": "<@${tempVars(\"tokencreator\")}>",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "logs-embed",
+      "channel": "5",
+      "varName2": "log-channel",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    },
+    {
       "time": "30",
       "measurement": "1",
       "name": "Wait"
@@ -329,6 +459,5 @@
       "name": "Delete Message"
     }
   ],
-  "_timeRestriction": 3,
   "comType": "0"
 }
