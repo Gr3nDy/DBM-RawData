@@ -64,6 +64,7 @@ DBM.
 <details><summary>1.0.2</summary>
 
 * Added logs for `create`
+* Added logs for `redeem`
 * Simplified embed design
 * Bugs fixed
 </details>
