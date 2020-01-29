@@ -32,7 +32,7 @@ DBM.
 * 4.Paste Raw Data
 * 5.Click on save
 
-# Customization
+# Configuration
 
 <b><ins>Commands:</ins></b>
 
