@@ -1,5 +1,5 @@
 {
-  "name": "token",
+  "name": "tokenadmin",
   "permissions": "NONE",
   "restriction": "1",
   "_id": "jQnmV",
@@ -35,6 +35,18 @@
       "find": "LOG CHANNEL ID",
       "storage": "1",
       "varName": "log-channel",
+      "name": "Find Channel"
+    },
+    {
+      "comment": "↓ BOT CHANNEL ↓",
+      "color": "#03fc73",
+      "name": "Comment"
+    },
+    {
+      "info": "0",
+      "find": "BOT CHANNEL ID",
+      "storage": "1",
+      "varName": "bot-channel",
       "name": "Find Channel"
     },
     {
@@ -91,7 +103,7 @@
     {
       "storage": "1",
       "varName": "msg0",
-      "message": "`>token create <datatype> <value> <duration>` | Create Token\n`>token gift <user> <datatype> <value> <duration>` | Gift Token\n`>token list` | List of active token\n`>token check <token>` | Check token data\n`>token delete <token>` | Delete token\n`>redeem <token>` | Redeem token",
+      "message": "`token create <datatype> <value> <duration>` | Create Token\n`token gift <user> <datatype> <value> <duration>` | Gift Token\n`token list` | List of active token\n`token check <token>` | Check token data\n`token delete <token>` | Delete token\n`redeem <token>` | Redeem token",
       "name": "Set Embed Description"
     },
     {
@@ -693,7 +705,7 @@
       "name": "File Control"
     },
     {
-      "input": "{\n \"datatype\": \"${tempVars(\"dataname\")}\",\n \"value\": \"${tempVars(\"value\")}\",\n \"expires\": ${tempVars(\"tokenExpires2\")},\n \"expiredate\": \"${tempVars(\"tokenExpiresDATE(month)\")} ${tempVars(\"tokenExpiresDATE(day)\")} ${tempVars(\"tokenExpiresDATE(year)\")}\",\n \"expiretime\": \"${tempVars(\"tokenExpiresDATE(time)\")}\",\n \"tokencreator\": \"${tempVars(\"token-creator\")}\",\n \"duration\": \"${tempVars(\"duration\")}\",\n \"giftedto\": \"none\"\n}",
+      "input": "{\n \"token\": \"${tempVars(\"chars\")}\",\n \"datatype\": \"${tempVars(\"dataname\")}\",\n \"value\": \"${tempVars(\"value\")}\",\n \"expires\": ${tempVars(\"tokenExpires2\")},\n \"expiredate\": \"${tempVars(\"tokenExpiresDATE(month)\")} ${tempVars(\"tokenExpiresDATE(day)\")} ${tempVars(\"tokenExpiresDATE(year)\")}\",\n \"expiretime\": \"${tempVars(\"tokenExpiresDATE(time)\")}\",\n \"tokencreator\": \"${tempVars(\"token-creator\")}\",\n \"duration\": \"${tempVars(\"duration\")}\",\n \"giftedto\": \"none\"\n}",
       "format": ".json",
       "filename": "${tempVars(\"chars\")}",
       "filepath": "./resources/token/",
@@ -975,6 +987,44 @@
     {
       "behavior": "0",
       "jsonObjectVarName": "tokenjson",
+      "path": "$.token",
+      "storage": "1",
+      "varName": "tokenpass",
+      "name": "Parse From Stored Json"
+    },
+    {
+      "behavior": "0",
+      "interpretation": "0",
+      "code": "/(${tempVars(\"tokenpass\")})/",
+      "storage": "1",
+      "varName": "tokenpass2",
+      "name": "Run Script"
+    },
+    {
+      "storage": "1",
+      "varName": "readtoken",
+      "comparison": "12",
+      "value": "tempVars(\"tokenpass2\")",
+      "iftrue": "3",
+      "iftrueVal": "2",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "behavior": "0",
+      "interpretation": "0",
+      "code": "msg.channel.send({embed:{color:15158332,description:\"Token is not Exist/Expired\"}});\n",
+      "storage": "0",
+      "varName": "",
+      "name": "Run Script"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "behavior": "0",
+      "jsonObjectVarName": "tokenjson",
       "path": "$.datatype",
       "storage": "1",
       "varName": "datatypejson",
@@ -1225,6 +1275,50 @@
       "iffalse": "0",
       "iffalseVal": "",
       "name": "Check if File Exists"
+    },
+    {
+      "behavior": "0",
+      "interpretation": "0",
+      "code": "msg.channel.send({embed:{color:15158332,description:\"Token is not Exist/Expired\"}});\n",
+      "storage": "0",
+      "varName": "",
+      "name": "Run Script"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "filename": "./resources/token/${tempVars(\"readtoken\")}.json",
+      "storage": "1",
+      "varName2": "tokenjson",
+      "name": "Read File"
+    },
+    {
+      "behavior": "0",
+      "jsonObjectVarName": "tokenjson",
+      "path": "$.token",
+      "storage": "1",
+      "varName": "tokenpass",
+      "name": "Parse From Stored Json"
+    },
+    {
+      "behavior": "0",
+      "interpretation": "0",
+      "code": "/(${tempVars(\"tokenpass\")})/",
+      "storage": "1",
+      "varName": "tokenpass2",
+      "name": "Run Script"
+    },
+    {
+      "storage": "1",
+      "varName": "readtoken",
+      "comparison": "12",
+      "value": "tempVars(\"tokenpass2\")",
+      "iftrue": "3",
+      "iftrueVal": "2",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Variable"
     },
     {
       "behavior": "0",
@@ -1846,7 +1940,7 @@
       "name": "File Control"
     },
     {
-      "input": "{\n \"datatype\": \"${tempVars(\"dataname\")}\",\n \"value\": \"${tempVars(\"value\")}\",\n \"expires\": ${tempVars(\"tokenExpires2\")},\n \"expiredate\": \"${tempVars(\"tokenExpiresDATE(month)\")} ${tempVars(\"tokenExpiresDATE(day)\")} ${tempVars(\"tokenExpiresDATE(year)\")}\",\n \"expiretime\": \"${tempVars(\"tokenExpiresDATE(time)\")}\",\n \"tokencreator\": \"${tempVars(\"token-creator\")}\",\n \"duration\": \"${tempVars(\"duration\")}\",\n \"giftedto\": \"${tempVars(\"user.id\")}\"\n}",
+      "input": "{\n \"token\": \"${tempVars(\"chars\")}\",\n \"datatype\": \"${tempVars(\"dataname\")}\",\n \"value\": \"${tempVars(\"value\")}\",\n \"expires\": ${tempVars(\"tokenExpires2\")},\n \"expiredate\": \"${tempVars(\"tokenExpiresDATE(month)\")} ${tempVars(\"tokenExpiresDATE(day)\")} ${tempVars(\"tokenExpiresDATE(year)\")}\",\n \"expiretime\": \"${tempVars(\"tokenExpiresDATE(time)\")}\",\n \"tokencreator\": \"${tempVars(\"token-creator\")}\",\n \"duration\": \"${tempVars(\"duration\")}\",\n \"giftedto\": \"${tempVars(\"user.id\")}\"\n}",
       "format": ".json",
       "filename": "${tempVars(\"chars\")}",
       "filepath": "./resources/token/",
@@ -1878,7 +1972,7 @@
     {
       "storage": "1",
       "varName": "token",
-      "message": "🎁 ${tempVars(\"user\")} you has received a token.\nRedeem it on <#BOTCHANNELID> by using `redeem`\n\n",
+      "message": "🎁 ${tempVars(\"user\")} you has received a token.\nRedeem it on ${tempVars(\"bot-channel\")} by using `redeem`\n\n",
       "name": "Set Embed Description"
     },
     {
@@ -1991,7 +2085,7 @@
     {
       "behavior": "0",
       "interpretation": "0",
-      "code": "msg.channel.send({embed:{color:15158332,description:\"Invalid Usage `>redeem`\"}});\n",
+      "code": "msg.channel.send({embed:{color:15158332,description:\"Invalid Usage `redeem`\"}});\n",
       "storage": "1",
       "varName": "invalid-redeem",
       "name": "Run Script"
