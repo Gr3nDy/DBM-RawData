@@ -1,5 +1,5 @@
 # ![app icon](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/Screenshot/icon.png) TokenMe
-[![release](https://img.shields.io/static/v1?label=release&message=1.0.2&color=red)](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/help.md/)
+[![release](https://img.shields.io/static/v1?label=release&message=1.0.3&color=red)](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/help.md/)
 
 Convert <b>Member Data</b> into a reedemable <b>Token</b>
 ![gif](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/Screenshot/GIF.gif)
@@ -38,9 +38,9 @@ DBM.
 
 <b>Token</b>
 * Put your <b>Log Channel ID</b> to <strong>Action #5 (Find Channel)</strong> 
-* Edit <strong>Action #7 (Run Script)</strong>  and add any member data you'd like to be able to create token <br>
+* Put your <b>Bot Channel ID</b> to <strong>Action #7 (Find Channel)</strong> 
+* Edit <strong>Action #9 (Run Script)</strong>  and add any member data you'd like to be able to create token <br>
   <i>for an Example:</i> `/(datatype1|datatype2|datatype3|datatype4)/` to `/(coin|balance|XP|item|GEMS)/` <br> <em>(REMINDER!!! CASE SENSITIVE)</em>
-* Edit <strong>Action #245 (Set Embed Description)</strong> and put your <b>Bot Channel ID</b>
 
 <b>Redeem</b>
 * Put your <b>Log Channel ID</b> to <strong>Action #5 (Find Channel)</strong> 
@@ -70,6 +70,13 @@ DBM.
 * Added logs for `create`
 * Added logs for `redeem`
 * Simplified embed design
+* Bugs fixed
+</details>
+
+<details><summary>1.0.3</summary>
+
+* Fixed Insensitive Tokens
+* Moved "Bot Channel ID" for `tokenme`
 * Bugs fixed
 </details>
 
