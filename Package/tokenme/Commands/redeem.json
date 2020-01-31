@@ -240,6 +240,44 @@
     {
       "behavior": "0",
       "jsonObjectVarName": "token-json",
+      "path": "$.token",
+      "storage": "1",
+      "varName": "tokenjson",
+      "name": "Parse From Stored Json"
+    },
+    {
+      "behavior": "0",
+      "interpretation": "0",
+      "code": "/(${tempVars(\"tokenjson\")})/",
+      "storage": "1",
+      "varName": "token-pass",
+      "name": "Run Script"
+    },
+    {
+      "storage": "1",
+      "varName": "param",
+      "comparison": "12",
+      "value": "tempVars(\"token-pass\")",
+      "iftrue": "3",
+      "iftrueVal": "2",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "behavior": "0",
+      "interpretation": "0",
+      "code": "msg.channel.send({embed:{color:15158332,description:\"Token is not Exist/Expired!\"}});\n",
+      "storage": "0",
+      "varName": "",
+      "name": "Run Script"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "behavior": "0",
+      "jsonObjectVarName": "token-json",
       "path": "$.expires",
       "storage": "1",
       "varName": "expirejson",
