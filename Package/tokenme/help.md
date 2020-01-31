@@ -1,5 +1,5 @@
 # ![app icon](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/Screenshot/icon.png) TokenMe
-[![release](https://img.shields.io/static/v1?label=release&message=1.0.3&color=red)](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/help.md/)
+[![release](https://img.shields.io/static/v1?label=release&message=1.0.4&color=red)](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/help.md/)
 
 Convert <b>Member Data</b> into a reedemable <b>Token</b>
 ![gif](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/Screenshot/GIF.gif)
@@ -73,7 +73,7 @@ DBM.
 * Bugs fixed
 </details>
 
-<details><summary>1.0.3</summary>
+<details><summary>1.0.4</summary>
 
 * Fixed Insensitive Tokens
 * Moved "Bot Channel ID" for `tokenme`
