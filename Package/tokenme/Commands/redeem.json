@@ -1,5 +1,5 @@
 {
-  "name": "redeem",
+  "name": "redeemadmin",
   "permissions": "NONE",
   "restriction": "1",
   "_id": "RNawS",
@@ -267,7 +267,7 @@
     {
       "behavior": "0",
       "interpretation": "0",
-      "code": "msg.channel.send({embed:{color:15158332,description:\"Token is not Exist/Expired!\"}});\n",
+      "code": "msg.channel.send({embed:{color:15158332,description:\"Token is not Exist/Expired\"}});\n",
       "storage": "0",
       "varName": "",
       "name": "Run Script"
