@@ -66,14 +66,14 @@
       "name": "Check Parameters"
     },
     {
-      "title": "Redeem",
+      "title": "TokenMe",
       "author": "",
       "color": "RED",
       "url": "",
       "authorIcon": "",
       "authorUrl": "",
       "imageUrl": "",
-      "thumbUrl": "",
+      "thumbUrl": "https://raw.githubusercontent.com/Gr3nDy/DBM-RawData/master/Package/tokenme/Screenshot/icon.png",
       "timestamp": "false",
       "debug": "false",
       "text": "",
