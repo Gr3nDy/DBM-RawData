@@ -5,7 +5,7 @@ Here's a few guides of how to customize your **TokenMe** commands (Optional);
 Edit **Action #95 (Run Script)** & **Action #254 (Run Script)** <br>
 `[...Array(9)]` to `[...Array(length)]`
 
-# How do i change my token to look like steam code (AAAAAA-AAAAAA-AAAAAA)
+# How do i change my token to look like steam code
 Replace **Action #95 (Run Script)** & **Action #254 (Run Script)** to <br>
 ```
 const ran = [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"];
