@@ -27,4 +27,4 @@ chars
 `gift` msg started from **Action #257 (Create Embed Message)**
 
 
-[Back To TokenMe Page](https://github.com/Gr3nDy/DBM-RawData/edit/master/Package/tokenme/help.md)
+[Back To TokenMe Page](github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/help.md)
