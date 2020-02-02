@@ -88,3 +88,6 @@ Keep in mind that member data are case sensitive, so put the correct member data
 <br>
 <br>
 And make sure you've installed <em>betamods</em> on your DBM
+<br>
+<br>
+[TokenMe | Wiki](wiki.md)
