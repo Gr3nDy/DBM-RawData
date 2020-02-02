@@ -1,5 +1,5 @@
 # ![app icon](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/Screenshot/icon.png) TokenMe | Wiki
-Here's a few guides of how to customize your **TokenMe** commands;
+Here's a few guides of how to customize your **TokenMe** command;
 <br>(Some of these are optional)
 
 # What is i supposed to fill on datatype
