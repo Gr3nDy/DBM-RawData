@@ -3,7 +3,7 @@ Here's a few guides of how to customize your **TokenMe** commands;
 <br>(Some of these are optional)
 
 # What is i supposed to fill on datatype
-you supposed to fill a member data name by doing so it's allowing you to create the data into token
+you supposed to fill a member data name by doing so it's allowing you to create the data into token <br>
 <i>for an Example:</i> `/(datatype1|datatype2|datatype3|datatype4)/` to `/(coin|balance|XP|item|GEMS)/` <br> <em>(REMINDER!!! CASE SENSITIVE)</em>
 
 # How do i change the token length
