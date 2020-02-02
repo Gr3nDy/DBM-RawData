@@ -2,4 +2,4 @@
 Here's a few guides of how to customize your **TokenMe** commands (Optional);
 
 # How do i change the token length
-[Nadeko Embed Builder](https://eb.nadeko.bot)
+[Back To TokenMe Page](https://github.com/Gr3nDy/DBM-RawData/edit/master/Package/tokenme/help.md)
