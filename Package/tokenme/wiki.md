@@ -7,12 +7,14 @@ Edit **Action #95 (Run Script)** & **Action #254 (Run Script)** <br>
 
 # How do i change my token to look like steam code (AAAAAA-AAAAAA-AAAAAA)
 Replace **Action #95 (Run Script)** & **Action #254 (Run Script)** to <br>
-```const ran = [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"];
+```
+const ran = [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"];
 const com1 = [...Array(6)].map(i=>ran[Math.random()*ran.length|0]).join``;
 const com2 = [...Array(6)].map(i=>ran[Math.random()*ran.length|0]).join``;
 const com3 = [...Array(6)].map(i=>ran[Math.random()*ran.length|0]).join``;
 var chars = com1+"-"+com2+"-"+com3
-chars```  
+chars
+```
 
 
 [Back To TokenMe Page](https://github.com/Gr3nDy/DBM-RawData/edit/master/Package/tokenme/help.md)
