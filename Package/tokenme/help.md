@@ -50,7 +50,7 @@ DBM.
 <b><ins>Events:</ins></b>
 
 <b>Loop 1</b>
-* On <strong>Action #2 (Loop Through List)</strong> Set it to call Event <b>Loop 2</b> <em>(By default it's already set to Loop 2)</em>
+* On <strong>Action #2 (Loop Through List)</strong> Set it to call Event <b>Loop 2</b>
 
 <b>Loop 2</b>
 * Put your <b>Log Channel ID</b> to <strong>Action #6 (Find Channel)</strong>
