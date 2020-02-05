@@ -351,22 +351,6 @@
       "name": "Wait"
     },
     {
-      "behavior": "0",
-      "interpretation": "0",
-      "code": "var str = '${tempVars(\"datatypejson\")}';\nstr.toLowerCase();\n",
-      "storage": "1",
-      "varName": "datatypejson",
-      "name": "Run Script"
-    },
-    {
-      "behavior": "0",
-      "interpretation": "0",
-      "code": "var str = \"${tempVars(\"datatypejson\")}\";\n(str.charAt(0).toUpperCase() + str.substring(1));",
-      "storage": "1",
-      "varName": "datatypejson",
-      "name": "Run Script"
-    },
-    {
       "title": "",
       "author": "",
       "color": "#1fff80",
@@ -391,7 +375,7 @@
     {
       "storage": "1",
       "varName": "redeemed",
-      "message": "${member} **Token** Succesfully Redeemed\nYou gets **${tempVars(\"valuejson\")} ${tempVars(\"datatypejson\")}**",
+      "message": "${member} **Token** Succesfully Redeemed\nYou gets **${tempVars(\"valuejson\")}** `${tempVars(\"datatypejson\")}`",
       "name": "Set Embed Description"
     },
     {
