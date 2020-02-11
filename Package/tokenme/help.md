@@ -1,5 +1,5 @@
 # ![app icon](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/Screenshot/icon.png) TokenMe
-[![release](https://img.shields.io/static/v1?label=release&message=1.0.6&color=red)](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/help.md/)
+[![release](https://img.shields.io/static/v1?label=release&message=1.0.9&color=red)](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/help.md/)
 
 Convert <b>Member Data</b> into a reedemable <b>Token</b>
 ![gif](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/Screenshot/GIF.gif)
@@ -85,6 +85,12 @@ DBM.
 * Fixed `redeem` Embed
 * Added `if gift failed` Message
 </details>
+
+<details><summary>1.0.9</summary>
+
+* More Relaxed `Duration`
+* Fixed Duration Logs
+* Bugs Fixed
 
 # Note
 This Command is intended to be used only for one server
