@@ -420,7 +420,7 @@
       "name": "Comment"
     },
     {
-      "info": "0",
+      "info": "1",
       "infoIndex": "4",
       "storage": "1",
       "varName": "duration",
@@ -515,7 +515,7 @@
       "value": "",
       "iftrue": "3",
       "iftrueVal": "2",
-      "iffalse": "1",
+      "iffalse": "0",
       "iffalseVal": "",
       "name": "Check Variable"
     },
@@ -705,7 +705,7 @@
       "name": "File Control"
     },
     {
-      "input": "{\n \"token\": \"${tempVars(\"chars\")}\",\n \"datatype\": \"${tempVars(\"dataname\")}\",\n \"value\": \"${tempVars(\"value\")}\",\n \"expires\": ${tempVars(\"tokenExpires2\")},\n \"expiredate\": \"${tempVars(\"tokenExpiresDATE(month)\")} ${tempVars(\"tokenExpiresDATE(day)\")} ${tempVars(\"tokenExpiresDATE(year)\")}\",\n \"expiretime\": \"${tempVars(\"tokenExpiresDATE(time)\")}\",\n \"tokencreator\": \"${tempVars(\"token-creator\")}\",\n \"duration\": \"${tempVars(\"duration\")}\",\n \"giftedto\": \"none\"\n}",
+      "input": "{\n \"token\": \"${tempVars(\"chars\")}\",\n \"datatype\": \"${tempVars(\"dataname\")}\",\n \"value\": \"${tempVars(\"value\")}\",\n \"expires\": ${tempVars(\"tokenExpires2\")},\n \"expiredate\": \"${tempVars(\"tokenExpiresDATE(month)\")} ${tempVars(\"tokenExpiresDATE(day)\")} ${tempVars(\"tokenExpiresDATE(year)\")}\",\n \"expiretime\": \"${tempVars(\"tokenExpiresDATE(time)\")}\",\n \"tokencreator\": \"${tempVars(\"token-creator\")}\",\n \"duration\": \"${tempVars(\"numerical\")} ${tempVars(\"time\")}\",\n \"giftedto\": \"none\"\n}",
       "format": ".json",
       "filename": "${tempVars(\"chars\")}",
       "filepath": "./resources/token/",
@@ -801,7 +801,7 @@
       "storage": "1",
       "varName": "token-created-log",
       "fieldName": "Duration",
-      "message": "${tempVars(\"duration\")}",
+      "message": "${tempVars(\"numerical\")} ${tempVars(\"time\")}",
       "inline": "0",
       "name": "Add Embed Field"
     },
@@ -1644,7 +1644,7 @@
       "name": "Comment"
     },
     {
-      "info": "0",
+      "info": "1",
       "infoIndex": "5",
       "storage": "1",
       "varName": "duration",
@@ -1747,7 +1747,7 @@
       "value": "",
       "iftrue": "3",
       "iftrueVal": "2",
-      "iffalse": "1",
+      "iffalse": "0",
       "iffalseVal": "",
       "name": "Check Variable"
     },
@@ -1940,7 +1940,7 @@
       "name": "File Control"
     },
     {
-      "input": "{\n \"token\": \"${tempVars(\"chars\")}\",\n \"datatype\": \"${tempVars(\"dataname\")}\",\n \"value\": \"${tempVars(\"value\")}\",\n \"expires\": ${tempVars(\"tokenExpires2\")},\n \"expiredate\": \"${tempVars(\"tokenExpiresDATE(month)\")} ${tempVars(\"tokenExpiresDATE(day)\")} ${tempVars(\"tokenExpiresDATE(year)\")}\",\n \"expiretime\": \"${tempVars(\"tokenExpiresDATE(time)\")}\",\n \"tokencreator\": \"${tempVars(\"token-creator\")}\",\n \"duration\": \"${tempVars(\"duration\")}\",\n \"giftedto\": \"${tempVars(\"user.id\")}\"\n}",
+      "input": "{\n \"token\": \"${tempVars(\"chars\")}\",\n \"datatype\": \"${tempVars(\"dataname\")}\",\n \"value\": \"${tempVars(\"value\")}\",\n \"expires\": ${tempVars(\"tokenExpires2\")},\n \"expiredate\": \"${tempVars(\"tokenExpiresDATE(month)\")} ${tempVars(\"tokenExpiresDATE(day)\")} ${tempVars(\"tokenExpiresDATE(year)\")}\",\n \"expiretime\": \"${tempVars(\"tokenExpiresDATE(time)\")}\",\n \"tokencreator\": \"${tempVars(\"token-creator\")}\",\n \"duration\": \"${tempVars(\"numerical\")} ${tempVars(\"time\")}\",\n \"giftedto\": \"${tempVars(\"user.id\")}\"\n}",
       "format": ".json",
       "filename": "${tempVars(\"chars\")}",
       "filepath": "./resources/token/",
@@ -2147,6 +2147,11 @@
     },
     {
       "name": "End Action Sequence"
+    },
+    {
+      "comment": "TokenMe | release 1.0.9 | GrenDy",
+      "color": "#0080ff",
+      "name": "Comment"
     }
   ],
   "_aliases": [
