@@ -91,6 +91,7 @@ DBM.
 * More Relaxed `Duration`
 * Fixed Duration Logs
 * Bugs Fixed
+</details>
 
 # Note
 This Command is intended to be used only for one server
