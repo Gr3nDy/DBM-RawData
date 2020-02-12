@@ -31,11 +31,17 @@
       "varName": "current-time",
       "comparison": "14",
       "value": "tempVars(\"expires\")",
-      "iftrue": "0",
-      "iftrueVal": "",
-      "iffalse": "2",
+      "iftrue": "3",
+      "iftrueVal": "1",
+      "iffalse": "0",
       "iffalseVal": "37",
       "name": "Check Variable"
+    },
+    {
+      "description": "jump to looping",
+      "jump_to_anchor": "looping",
+      "color": "#8080c0",
+      "name": "Jump to Anchor"
     },
     {
       "comment": "↓ SET LOGS CHANNEL ↓",
@@ -44,7 +50,7 @@
     },
     {
       "info": "0",
-      "find": "LOG CHANNEL ID",
+      "find": "LOGS CHANNEL ID",
       "storage": "1",
       "varName": "logs",
       "name": "Find Channel"
@@ -294,6 +300,12 @@
       "iffalseVal": "",
       "messageContent": "",
       "name": "Send Embed Message"
+    },
+    {
+      "anchor_id": "looping",
+      "color": "#8080c0",
+      "description": "looping",
+      "name": "Create Anchor"
     },
     {
       "comment": "",
