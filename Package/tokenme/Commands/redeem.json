@@ -1,5 +1,5 @@
 {
-  "name": "redeem",
+  "name": "redeemadmin",
   "permissions": "NONE",
   "restriction": "1",
   "_id": "RNawS",
@@ -388,7 +388,7 @@
       "iffalse": "0",
       "iffalseVal": "",
       "messageContent": "",
-      "name": "Send Embed Message MOD"
+      "name": "Send Embed Message"
     },
     {
       "input": "",
