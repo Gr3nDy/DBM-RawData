@@ -1,5 +1,5 @@
 {
-  "name": "token",
+  "name": "tokenadmin",
   "permissions": "NONE",
   "restriction": "1",
   "_id": "jQnmV",
@@ -116,7 +116,7 @@
       "iffalse": "0",
       "iffalseVal": "",
       "messageContent": "",
-      "name": "Send Embed Message MOD"
+      "name": "Send Embed Message"
     },
     {
       "name": "End Action Sequence"
@@ -765,7 +765,7 @@
       "iffalse": "0",
       "iffalseVal": "",
       "messageContent": "",
-      "name": "Send Embed Message MOD"
+      "name": "Send Embed Message"
     },
     {
       "title": "Token Created",
@@ -905,14 +905,14 @@
     {
       "storage": "1",
       "varName": "tokenlistm",
-      "channel": "1",
+      "channel": "0",
       "varName2": "",
       "storage3": "0",
       "varName3": "",
       "iffalse": "0",
       "iffalseVal": "",
       "messageContent": "",
-      "name": "Send Embed Message MOD"
+      "name": "Send Embed Message"
     },
     {
       "behavior": "0",
@@ -1229,7 +1229,7 @@
       "iffalse": "0",
       "iffalseVal": "",
       "messageContent": "",
-      "name": "Send Embed Message MOD"
+      "name": "Send Embed Message"
     },
     {
       "name": "End Action Sequence"
@@ -2149,7 +2149,7 @@
       "name": "End Action Sequence"
     },
     {
-      "comment": "TokenMe | release 1.0.9 | GrenDy",
+      "comment": "TokenMe | release 1.1.0 | GrenDy",
       "color": "#0080ff",
       "name": "Comment"
     }
