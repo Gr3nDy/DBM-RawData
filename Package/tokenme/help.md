@@ -31,7 +31,7 @@ DBM.
 * 3.Select Edit Raw Data
 * 4.Paste Raw Data
 * 5.Click on save
-* 6.[Configure](#Configuration) the commands
+* 6.[Configure](#Configuration) the Raw Data
 
 # Configuration
 
