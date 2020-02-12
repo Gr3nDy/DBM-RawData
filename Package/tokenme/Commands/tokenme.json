@@ -1,5 +1,5 @@
 {
-  "name": "token",
+  "name": "tokenadmin",
   "permissions": "NONE",
   "restriction": "1",
   "_id": "jQnmV",
@@ -905,7 +905,7 @@
     {
       "storage": "1",
       "varName": "tokenlistm",
-      "channel": "0",
+      "channel": "1",
       "varName2": "",
       "storage3": "0",
       "varName3": "",
