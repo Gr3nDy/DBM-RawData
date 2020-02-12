@@ -87,10 +87,16 @@ DBM.
 * Added `if gift failed` Message
 </details>
 
-<details><summary>1.0.9</summary>
+<details><summary>1.0.8</summary>
 
 * More Relaxed `Duration`
 * Fixed Duration Logs
+* Bugs Fixed
+</details>
+
+<details><summary>1.1.0</summary>
+
+* Fixed Missing `Send Embed Message`
 * Bugs Fixed
 </details>
 
