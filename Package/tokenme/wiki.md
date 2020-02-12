@@ -6,7 +6,9 @@ Here's a few guides of how to customize your **TokenMe** command;
 you supposed to fill a member data name by doing so it's allowing you to create the data into token <br>
 <i>for an Example:</i> `/(datatype1|datatype2|datatype3|datatype4)/` to `/(coin|balance|XP|item|GEMS)/` <br> <em>(REMINDER!!! CASE SENSITIVE)</em>
 <br>
-the format for `datatype` would be; `/()/`,inserting invalid format might make the command not function
+<br>
+the format for `datatype` would be; `/()/`
+<br>inserting invalid format might make the command not function
 
 # <h3>How do i change the token length</h3>
 Edit **Action #95 (Run Script)** & **Action #254 (Run Script)** <br>
