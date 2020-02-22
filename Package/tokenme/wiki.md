@@ -8,7 +8,7 @@ You can find mods on DBM Network Server
 
 # <h3>2. it gives me "Invalid Datatype" everytime i create a token</h3>
 Make sure you put a correct configuration on datatype section [Here](./wiki.md#1-what-is-i-supposed-to-fill-on-datatype).
-if you think you already put the configuration correctly and it's still doesn't work it might be your "Check Variable" Mod is might be outdated since the command is using "Match Full regex" which you can only get on _betamods_
+if you think you already put the configuration correctly and it's still doesn't work it might be your "Check Variable" Mod is might be outdated since the command is using "Match Full regex" which you can only get on _betamods_. again please upgrade your DBM to Beta and install Mods
 
 # Customization
 Here's a few guides of how to customize your **TokenMe** command;
