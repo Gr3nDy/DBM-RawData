@@ -10,6 +10,10 @@ You can find mods on DBM Network Server
 Make sure you put a correct configuration on datatype section [Here](./wiki.md#1-what-is-i-supposed-to-fill-on-datatype).
 if you think you already put the configuration correctly and it's still doesn't work it might be your "Check Variable" Mod is might be outdated since the command is using "Match Full regex" which you can only get on _betamods_. again please upgrade your DBM to Beta and install Mods
 
+# <h3>3. Why do i have to fill my BOT Channel ID too</h3>
+this is needed when a **Token** is `gifted` to a person, the token and bot channel will be sent to the person on DM.
+However you can remove this function everytime [Here](./wiki.md#5-how-do-i-change-the-gift-token-messsage)
+
 # Customization
 Here's a few guides of how to customize your **TokenMe** command;
 <br>(Some of these are optional)
