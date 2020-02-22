@@ -15,7 +15,7 @@ this is needed when a **Token** is `gifted` to a person, the token and bot chann
 However you can remove this function everytime [Here](./wiki.md#5-how-do-i-change-the-gift-token-messsage)
 
 # <h3>4. How do i create a token</h3>
-`[p]token create <datatype> <value> <duration>` <br>
+`[p]token create <datatype> <value> <duration>` <br> <br>
 e.g `[p] token create coin 1500 7h` it'll create a token and will be expired in 7 hours<br>
 **TokenMe** only Support Minutes/Hours/Days
 
