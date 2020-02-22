@@ -14,6 +14,11 @@ if you think you already put the configuration correctly and it's still doesn't 
 this is needed when a **Token** is `gifted` to a person, the token and bot channel will be sent to the person on DM.
 However you can remove this function everytime [Here](./wiki.md#5-how-do-i-change-the-gift-token-messsage)
 
+# <h3>4. How do i create a token</h3>
+`[p]token create <datatype> <value> <duration>` <br>
+e.g `[p] token create coin 1500 7h` it'll create a token and will be expired in 7 hours<br>
+**TokenMe** only Support Minutes/Hours/Days
+
 # Customization
 Here's a few guides of how to customize your **TokenMe** command;
 <br>(Some of these are optional)
