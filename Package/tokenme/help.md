@@ -101,13 +101,13 @@ DBM.
 </details>
 
 # Note
+⚠️<b>Make sure you've installed <em>betamods</em> on your DBM</b>⚠️
+<br>
+<br>
 This Command is intended to be used only for one server
 <br>
 <br>
 Keep in mind that member data are case sensitive, so put the correct member data on `datatype` configuration or else it'll create a new member data
-<br>
-<br>
-And make sure you've installed <em>betamods</em> on your DBM
 <br>
 <br>
 [TokenMe | Wiki](wiki.md)
