@@ -7,7 +7,7 @@ This means you're missing an action/mod please updgrade your DBM to Beta and ins
 You can find mods on DBM Network Server
 
 # <h3>2. it gives me "Invalid Datatype" everytime i create a token</h3>
-Make sure you put a correct configuration on datatype section [Here]
+Make sure you put a correct configuration on datatype section [Here](./wiki.md#1-what-is-i-supposed-to-fill-on-datatype)
 
 # Customization
 Here's a few guides of how to customize your **TokenMe** command;
