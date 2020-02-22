@@ -1,4 +1,7 @@
 # ![app icon](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/Screenshot/icon.png) TokenMe | Wiki
+# FAQ
+
+# Customization
 Here's a few guides of how to customize your **TokenMe** command;
 <br>(Some of these are optional)
 
