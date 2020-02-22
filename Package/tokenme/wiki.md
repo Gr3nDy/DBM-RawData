@@ -2,11 +2,11 @@
 # FAQ
 Here's a list of Frequently asked questions regarding **TokenMe**;
 
-# <h3>1. how do i fix "ERROR: The action does not exist!"</h3>
+# <h3>1. How do i fix "ERROR: The action does not exist!"</h3>
 This means you're missing an action/mod please updgrade your DBM to Beta and install Mods,
 You can find mods on DBM Network Server
 
-# <h3>2. it gives me "Invalid Datatype" everytime i create a token</h3>
+# <h3>2. It gives me "Invalid Datatype" everytime i create a token</h3>
 Make sure you put a correct configuration on datatype section [Here](./wiki.md#1-what-is-i-supposed-to-fill-on-datatype).
 if you think you already put the configuration correctly and it's still doesn't work it might be your "Check Variable" Mod is outdated, since the command is using "Match Full regex" which you can only get on _betamods_. again please upgrade your DBM to Beta and install Mods
 
