@@ -21,10 +21,10 @@ e.g `[p] token create coin 1500 7h` it'll create a token and will be expired in 
 
 # <h3>5. The bot logs keep spamming "Error with Event "Parse From Stored Json", Action #3:
 SyntaxError: Unexpected end of JSON input"</h3>
-`This is happen when the token didn't created correctly which causes the token.json empty,you can check if its empty by looking inside your bot folder` <i>'./resources/token'</i> `if there's no a folder called "token", you can create one inside the "resources" folder. You can fix this error by updating your Mods and switch to Beta`
+This is happen when the token didn't created correctly which causes the token.json empty,you can check if its empty by looking inside your bot folder` <i>'./resources/token'</i> `if there's no a folder called "token", you can create one inside the "resources" folder. You can fix this error by updating your Mods and switch to Beta
 
 # <h3>6. The bot logs keep spamming "WebAPI Parser: Error: {"error":{},"statusCode":0,"success":false} stored to: [expires]"</h3>
-`Same as [FAQ #5](./wiki.md#5-how-do-i-change-the-gift-token-messsage) the token didn't created correctly which causes the bot can't read the token.json properly, this is might happen when you trying to edit the token.json manually or if you edited the "File Control Action" the wrong way. You can fix this error by updating your Mods and switch to Beta or if its still happening you need to delete the "token" folder` <i>'./resources/token'</i> `and Re-Install [TokenMe Raw Data](help.md)`
+Same as [FAQ #5](./wiki.md#5-how-do-i-change-the-gift-token-messsage) the token didn't created correctly which causes the bot can't read the token.json properly, this is might happen when you trying to edit the token.json manually or if you edited the "File Control Action" the wrong way. You can fix this error by updating your Mods and switch to Beta or if its still happening you need to delete the "token" folder` <i>'./resources/token'</i> `and Re-Install [TokenMe Raw Data](help.md)
 
 
 # Customization
