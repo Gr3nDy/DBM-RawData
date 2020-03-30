@@ -35,7 +35,8 @@ you supposed to fill a member data name by doing so it's allowing you to create 
 <i>for an Example:</i> `/(datatype1|datatype2|datatype3|datatype4)$/` to `/(coin|balance|XP|item|GEMS)$/` <br> <em>(REMINDER!!! CASE SENSITIVE)</em>
 <br>
 <br>
-the format for `datatype` would be; `/()/`
+the format for `datatype` would be; `/()$/`
+use; " `|` " to separate `datatype` from each other
 <br>inserting invalid format might make the command not function
 
 # <h3>2. How do i change the token length</h3>
