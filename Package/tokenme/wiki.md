@@ -19,8 +19,7 @@ However you can remove this function everytime [Here](./wiki.md#5-how-do-i-chang
 e.g `[p] token create coin 1500 7h` it'll create a token and will be expired in 7 hours<br>
 **TokenMe** only Support Minutes/Hours/Days
 
-# <h3>5. The bot logs keep spamming "Error with Event "Parse From Stored Json", Action #3:
-SyntaxError: Unexpected end of JSON input"</h3>
+# <h3>5. The bot logs keep spamming "Error with Event "Parse From Stored Json", Action #3: SyntaxError: Unexpected end of JSON input"</h3>
 This is happen when the token didn't created correctly which causes the token.json empty,you can check if its empty by looking inside your bot folder `./resources/token` if there's no a folder called "token", you can create one inside the "resources" folder. You can fix this error by updating your Mods and switch to Beta
 
 # <h3>6. The bot logs keep spamming "WebAPI Parser: Error: {"error":{},"statusCode":0,"success":false} stored to: [expires]"</h3>
