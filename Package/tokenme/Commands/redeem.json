@@ -2,7 +2,7 @@
   "name": "redeem",
   "permissions": "NONE",
   "restriction": "1",
-  "_id": "RNawS",
+  "_id": "NrnKe",
   "actions": [
     {
       "member": "1",
@@ -453,9 +453,25 @@
     {
       "storage": "1",
       "varName": "logs-embed",
+      "fieldName": "Data Type",
+      "message": "${tempVars(\"datatypejson\")}",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "logs-embed",
+      "fieldName": "Value",
+      "message": "${tempVars(\"valuejson\")}",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "logs-embed",
       "fieldName": "Token Creator",
       "message": "<@${tempVars(\"tokencreator\")}>",
-      "inline": "0",
+      "inline": "1",
       "name": "Add Embed Field"
     },
     {
@@ -479,6 +495,11 @@
       "storage": "0",
       "varName": "",
       "name": "Delete Message"
+    },
+    {
+      "comment": "TokenMe | release 1.1.2 | GrenDy",
+      "color": "#0080ff",
+      "name": "Comment"
     }
   ],
   "comType": "0"
