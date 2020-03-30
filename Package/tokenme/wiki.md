@@ -36,7 +36,7 @@ you supposed to fill a member data name by doing so it's allowing you to create 
 <br>
 <br>
 the format for `datatype` would be; `/()$/`
-use; " `|` " to separate `datatype` from each other
+use; `|`  to separate `datatype` from each other
 <br>inserting invalid format might make the command not function
 
 # <h3>2. How do i change the token length</h3>
