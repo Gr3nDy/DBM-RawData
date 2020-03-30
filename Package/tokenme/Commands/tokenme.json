@@ -2,7 +2,7 @@
   "name": "token",
   "permissions": "NONE",
   "restriction": "1",
-  "_id": "jQnmV",
+  "_id": "BdULi",
   "actions": [
     {
       "member": "1",
@@ -56,8 +56,8 @@
     },
     {
       "behavior": "0",
-      "interpretation": "0",
-      "code": "/(datatype1|DATATYPE2|DaTaTyPe3|datatype4)/",
+      "interpretation": "1",
+      "code": "/(datatype1|datatype2|datatype3|datatype4)$/",
       "storage": "1",
       "varName": "datatype-list",
       "name": "Run Script"
@@ -2149,7 +2149,7 @@
       "name": "End Action Sequence"
     },
     {
-      "comment": "TokenMe | release 1.1.0 | GrenDy",
+      "comment": "TokenMe | release 1.1.2 | GrenDy",
       "color": "#0080ff",
       "name": "Comment"
     }
