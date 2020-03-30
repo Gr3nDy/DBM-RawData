@@ -1,5 +1,5 @@
 # ![app icon](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/Screenshot/icon.png) TokenMe
-[![release](https://img.shields.io/static/v1?label=release&message=1.1.0&color=red)](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/help.md/)
+[![release](https://img.shields.io/static/v1?label=release&message=1.1.2&color=red)](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/help.md/)
 
 Convert <b>Member Data</b> into a reedemable <b>Token</b>
 ![gif](https://github.com/Gr3nDy/DBM-RawData/blob/master/Package/tokenme/Screenshot/GIF.gif)
@@ -99,6 +99,14 @@ DBM.
 * Fixed Missing `Send Embed Message`
 * Bugs Fixed
 </details>
+
+<details><summary>1.1.2</summary>
+
+* `Redeem` also log the Data Type and Value now
+* Fixed `Match Exactly` Token not function
+</details>
+
+
 
 # Note
 ⚠️<b>Make sure you've installed <em>betamods</em> on your DBM</b>⚠️
