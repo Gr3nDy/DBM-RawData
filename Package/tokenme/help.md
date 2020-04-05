@@ -41,7 +41,7 @@ DBM.
 * Put your <b>Log Channel ID</b> to <strong>Action #5 (Find Channel)</strong> 
 * Put your <b>Bot Channel ID</b> to <strong>Action #7 (Find Channel)</strong> 
 * Edit <strong>Action #9 (Run Script)</strong>  and add any member data you'd like to be able to create token <br>
-  <i>for an Example:</i> `/(datatype1|datatype2|datatype3|datatype4)$/` to `/(coin|balance|XP|item|GEMS)$/` <br> <em>(REMINDER!!! CASE SENSITIVE)</em>
+  <i>for an Example:</i> `/^(datatype1|datatype2|datatype3|datatype4)$/` to `/^(coin|balance|XP|item|GEMS)$/` <br> <em>(REMINDER!!! CASE SENSITIVE)</em>
 
 <b>Redeem</b>
 * Put your <b>Log Channel ID</b> to <strong>Action #5 (Find Channel)</strong> 
