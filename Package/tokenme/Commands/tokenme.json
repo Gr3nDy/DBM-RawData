@@ -57,7 +57,7 @@
     {
       "behavior": "0",
       "interpretation": "1",
-      "code": "/(datatype1|datatype2|datatype3|datatype4)$/",
+      "code": "/^(datatype1|datatype2|datatype3|datatype4)$/",
       "storage": "1",
       "varName": "datatype-list",
       "name": "Run Script"
